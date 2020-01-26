@@ -1,0 +1,21 @@
+@import '../../styleguide.scss';
+.channelRow {
+	height: $channelRowHeight;
+	// border-bottom: 1px solid $silver;
+	box-sizing: border-box;
+	// width: 100%;
+	width: max-content;
+	display: flex;
+	// box-shadow: 0 1px 0 0 $blue-with-a-hint-of-purple;
+	background-image: linear-gradient(
+		45deg,
+		$pale-grey-two 25%,
+		$silver 25%,
+		$silver 50%,
+		$pale-grey-two 50%,
+		$pale-grey-two 75%,
+		$silver 75%,
+		$silver 100%
+	);
+	background-size: 28px 28px;
+}

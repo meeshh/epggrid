@@ -1,0 +1,7 @@
+@import "../../styleguide";
+.mainContainer {
+  width: calc(100% - #{$channelsPanelWidth});
+  overflow: auto;
+  // height: calc(100% - #{$channelsPanelWidth});
+  height: 100%;
+}

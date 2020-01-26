@@ -1,0 +1,36 @@
+@import "../../styleguide";
+.timeAxisContainer {
+  height: 100%;
+  // display: flex;
+  // width: max-content;
+  .timeSlotContainer {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    border-right: 1px dashed $dark;
+    .timeSlot{
+     display: flex;
+     position: relative;
+     .label{
+      margin: auto;
+      position: absolute;
+      left: -26px;
+      min-width: 44px;
+      text-align: center;
+
+      top: calc(#{$channelsPanelWidth} / 2);
+      padding: 2px 4px;
+      border-radius: 2px;
+      background-color: $dark;
+     }
+    }
+    &:first-child{
+     .timeSlot{
+      // display: none;
+      .label{
+       display: none;
+      }
+     }
+    }
+  }
+}

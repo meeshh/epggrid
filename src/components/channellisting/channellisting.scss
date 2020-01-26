@@ -1,0 +1,12 @@
+@import '../../styleguide';
+.channelListing {
+ padding: 12px;
+ height: $channelRowHeight;
+ box-sizing: border-box;
+ width: 100%;
+ text-align: center;
+ display: flex;
+ img{
+     margin: auto;
+ }
+}

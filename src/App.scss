@@ -1,0 +1,25 @@
+@import 'styleguide';
+.App {
+	height: 100vh;
+	.epgContainer {
+		background-color: $pale-grey-two;
+		width: 100%;
+		height: calc(100% - 48px);
+		display: flex;
+	}
+	.spacer {
+		height: $channelsPanelWidth;
+    // border-bottom: 1px solid;
+    background-color: lighten($dark, 30%);
+    color: #fff;
+		width: max-content;
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.2;
+	margin: 8px 0;
+}

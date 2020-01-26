@@ -1,0 +1,9 @@
+@import "../../styleguide";
+
+.channelsPanelContainer {
+  height: 100%;
+  width: $channelsPanelWidth;
+  background-color: #fff;
+  // border-right: 1px solid #d1d7de;
+  background-color: $dark;
+}

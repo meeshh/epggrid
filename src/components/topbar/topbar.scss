@@ -1,0 +1,10 @@
+@import '../../styleguide';
+.topbarContainer {
+  box-sizing: border-box;
+  padding: 12px 20px;
+  height: $topBarHeight; //48px;
+  width: 100%;
+  box-shadow: 0 1px 0 0 #d1d7de;
+  display: flex;
+  justify-content: space-between;
+}

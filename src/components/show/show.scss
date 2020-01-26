@@ -1,0 +1,58 @@
+@import '../../styleguide';
+.showContainer {
+	height: 100%;
+
+	background-color: $bluey-grey;
+	// border-left: 8px solid $blue-with-a-hint-of-purple;
+	border-top: 1px solid rgba(255, 255, 255, 0.235);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.235);
+	box-sizing: border-box;
+	// padding: 4px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+
+	h3,
+	h5 {
+		padding: 0 2px;
+	}
+}
+.genre {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 8px;
+	border: 1px solid $silver;
+	&.skr {
+		background-color: $seafoam-blue;
+	}
+	&.nna {
+		background-color: $soft-blue;
+	}
+	&.mmi {
+		background-color: $lavender-pink;
+	}
+	&.rfu {
+		background-color: $maize;
+	}
+	&.sdo {
+		background-color: $cherry;
+	}
+	&.ssc {
+		background-color: $liliac;
+	}
+	&.fdr {
+		background-color: $faded-red;
+	}
+	&.pdo {
+		background-color: $bluey-grey;
+	}
+	&.fsf, &.ssf {
+		background-color: $light-mustard;
+	}
+	&.xhm {
+		background-color: $faded-red;
+	}
+}
