@@ -8,7 +8,11 @@ I have set some default settings of how many number of channels to be displayed 
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn install` or `npm install`
+
+then when you finish installing the modules
+
+### `yarn start` or `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
