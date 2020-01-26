@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/epggrid/static/css/main.004a9256.chunk.css",
+    "main.js": "/epggrid/static/js/main.68407e1c.chunk.js",
+    "main.js.map": "/epggrid/static/js/main.68407e1c.chunk.js.map",
+    "runtime-main.js": "/epggrid/static/js/runtime-main.221e8c2c.js",
+    "runtime-main.js.map": "/epggrid/static/js/runtime-main.221e8c2c.js.map",
+    "static/js/2.06619563.chunk.js": "/epggrid/static/js/2.06619563.chunk.js",
+    "static/js/2.06619563.chunk.js.map": "/epggrid/static/js/2.06619563.chunk.js.map",
+    "index.html": "/epggrid/index.html",
+    "precache-manifest.8b3dcf1688a747aaea2dbfa2feb7424c.js": "/epggrid/precache-manifest.8b3dcf1688a747aaea2dbfa2feb7424c.js",
+    "service-worker.js": "/epggrid/service-worker.js",
+    "static/css/main.004a9256.chunk.css.map": "/epggrid/static/css/main.004a9256.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.221e8c2c.js",
+    "static/js/2.06619563.chunk.js",
+    "static/css/main.004a9256.chunk.css",
+    "static/js/main.68407e1c.chunk.js"
+  ]
+}
